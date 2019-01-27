@@ -17,7 +17,7 @@ app.use(cors(
 }));
 
 const users = require('./routes2/users');
-const answer = require('./routes/anwser');
+const answer = require('./routes2/answer');
 const comments = require('./routes/comments');
 const index = require('./routes/index');
 const hot = require('./routes/hot');
